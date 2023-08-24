@@ -2,7 +2,7 @@ from aiogram import types
 from database.manager import CategoryManager
 
 
-def get_catergory_btns():
+def get_category_btns():
     categories = CategoryManager().get_all_categories()
     markup = types.InlineKeyboardMarkup(width =1)
     for c in categories:

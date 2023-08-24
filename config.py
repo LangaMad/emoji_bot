@@ -8,6 +8,11 @@ MYSQL_HOST = 'localhost'
 MYSQL_URL = f'mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}/{MYSQL_DATABASE}'
 
 
+REDIS_HOST = '127.0.0.1'
+REDIS_PORT = 6379
+    
+
+
 
 
 

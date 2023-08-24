@@ -1,5 +1,6 @@
 from database.models import Category,User,Film
-from db import get_session
+from db import get_session,Base
+
 
 
 class CategoryManager():
@@ -48,5 +49,11 @@ class FilmManager():
     def get_films(self):
         r = self.session.query(self.model).all()
         return r
+
+
+
+
+    
+    
 
 
